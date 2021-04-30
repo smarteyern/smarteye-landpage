@@ -158,3 +158,5 @@ git merge cd/smarteye-02
 git checkout prod
 git merge cd/smarteye-02
 ```
+
+Saiba mais em [gitflow/git worflow](https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow)
