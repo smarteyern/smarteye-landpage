@@ -7,11 +7,17 @@ Aqui foi mostrado o Gitflow Workflow:
 #### O fluxo geral do Gitflow é:
 
 1 - Uma ramificação de desenvolvimento é criada a partir da branch principal;
+
 2 - Uma ramificação de lançamento é criada a partir da ramificação de desenvolvimento;
+
 3 - Ramificações de recurso são criadas a partir da ramificação de desenvolvimento;
+
 4 - Quando um recurso é concluído, ele é mesclado na ramificação de desenvolvimento;
+
 5 - Quando a ramificação de lançamento é concluída, ela é mesclada nas ramificações de desenvolvimento e principal;
+
 6 - Caso um problema seja detectado na branch principal,uma ramificação de hotfix é criada a partir da principal;
+
 7 - Após a conclusão da ramificação de hotfix, ela é mesclada para as ramificações de desenvolvimento e principal.
 
 ## Como funciona
