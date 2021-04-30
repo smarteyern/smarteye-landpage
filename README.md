@@ -1,13 +1,10 @@
 # Smarteye Landpage Project
 
-## Scripts to Storybook for React
+## Create file .env project
 
-Starts Storybook in development mode
+In the project directory, you can run:
 
-### `yarn storybook` or `npm run storybook`
-
-Run the storybook in the development mode.\
-Open [http://localhost:6006](http://localhost:6006/) to view it in the browser.
+### `cp .env.example .env`
 
 ## Available Scripts
 
@@ -18,8 +15,14 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Scripts to Storybook for React
+
+Start Storybook in development mode
+
+### `yarn storybook` or `npm run storybook`
+
+Run the storybook in the development mode.\
+Open [http://localhost:6006](http://localhost:6006/) to view it in the browser.
 
 ### `yarn test`
 
