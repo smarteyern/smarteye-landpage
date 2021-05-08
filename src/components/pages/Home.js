@@ -14,7 +14,9 @@ import AccordionGroup from "components/atoms/Accordion/AccordionGroup";
 
 import headerCovidImage from "assets/images/hero_banner02.jpg";
 import productImage from "assets/images/card03.jpg";
+import Logo from "assets/images/logo_light.png";
 import videoProject from "assets/videos/smarteye_02.mp4";
+import Header from "components/atoms/Header/Header";
 
 const products = [
   {
@@ -51,6 +53,7 @@ const products = [
 
 const Home = () => (
   <>
+    <Header image={Logo}></Header>
     <Hero image={headerCovidImage}>
       <Heading>
         <h1>
@@ -86,13 +89,6 @@ const Home = () => (
     </Section>
 
     <Section inverse>
-      <Heading>
-        <h2>Nossos Serviços</h2>
-        <ProductGrid products={products} />
-      </Heading>
-    </Section>
-
-    <Section>
       <GridRoot md={2}>
         <div>
           <Heading>
@@ -118,6 +114,13 @@ const Home = () => (
           />
         </div>
       </GridRoot>
+    </Section>
+
+    <Section>
+      <Heading>
+        <h2>Nossos Serviços</h2>
+        <ProductGrid products={products} />
+      </Heading>
     </Section>
 
     <Section inverse>
