@@ -38,7 +38,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "check": "npm-check -u -s"
+    "check": "npm-check -u -s",
+    "chromatic": "chromatic --project-token 041a9ef14db4"
   },
   "lint-staged": {
     "**/*.+(js|jsx)": [
