@@ -111,6 +111,7 @@ const Home = () => (
             type="video/mp4"
             autoPlay
             loop
+            muted
           />
         </div>
       </GridRoot>
