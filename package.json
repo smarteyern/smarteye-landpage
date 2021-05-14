@@ -42,7 +42,7 @@
     "chromatic": "chromatic --project-token 041a9ef14db4"
   },
   "lint-staged": {
-    "**/*.+(js|jsx)": [
+    "**/*.(js|jsx)": [
       "jest --findRelatedTests"
     ]
   },
@@ -94,8 +94,9 @@
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.2.9",
     "coveralls": "^3.1.0",
-    "eslint": "^5.16.0",
+    "eslint": "^7.26.0",
     "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-decorator-position": "^2.2.25",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.4.0",
