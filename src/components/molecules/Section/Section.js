@@ -4,11 +4,13 @@ import PropTypes from "prop-types";
 import ContainerRoot from "components/atoms/ContainerRoot/ContainerRoot";
 import { Content } from "./style";
 
-const Section = ({ inverse, children }) => (
-  <Content inverse={inverse}>
-    <ContainerRoot>{children}</ContainerRoot>
-  </Content>
-);
+const Section = ({ inverse, children }) => {
+  return (
+    <Content inverse={inverse}>
+      <ContainerRoot>{children}</ContainerRoot>
+    </Content>
+  );
+};
 
 Section.defaultProps = {
   children: undefined,
