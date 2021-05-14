@@ -17,6 +17,7 @@ import productImage from "assets/images/card03.jpg";
 import Logo from "assets/images/logo_light.png";
 import videoProject from "assets/videos/smarteye_02.mp4";
 import Header from "components/atoms/Header/Header";
+import { Container } from "./style";
 
 const products = [
   {
@@ -90,7 +91,7 @@ const Home = () => (
 
     <Section inverse>
       <GridRoot md={2}>
-        <div>
+        <Container>
           <Heading>
             <h2>Projeto SmartEye</h2>
           </Heading>
@@ -100,20 +101,11 @@ const Home = () => (
             quia! Quidem, veritatis saepe eveniet temporibus animi architecto
             odit laborum doloribus ullam cupiditate?
           </p>
-          <div>
+          <Container>
             <Button color="primary">SAIBA MAIS</Button>
-          </div>
-        </div>
-        <div>
-          <video
-            src={videoProject}
-            width="100%"
-            type="video/mp4"
-            autoPlay
-            loop
-            muted
-          />
-        </div>
+          </Container>
+        </Container>
+        <Container>Video</Container>
       </GridRoot>
     </Section>
 
