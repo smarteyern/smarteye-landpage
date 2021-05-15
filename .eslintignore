@@ -1,5 +1,14 @@
 **/*.js
+**/*.mdx
+**/*.mp4
+**/*.png
+**/*.jpg
+**/*.jpeg
+/src/**/*.mdx
+.vscode
 node_modules
 build
-/src/react-app-env.d.js
-/src/reportWebVitals.js
+/src/react-app-env.d.ts
+/src/reportWebVitals.ts
+coverage
+build
