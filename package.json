@@ -34,13 +34,20 @@
     "test": "react-scripts test",
     "test:watch": "npm run test -- --watch",
     "test:staged": "npm run test --findRelatedTests",
-    "test:ci": "npm run test --coverage",
+    "test:ci": "npm test -- --coverage",
     "test:coverage": "npm run test -- --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "check": "npm-check -u -s",
     "chromatic": "chromatic --project-token 041a9ef14db4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test",
+      "...": "..."
+    }
   },
   "lint-staged": {
     "**/*.(js|jsx)": [
@@ -95,6 +102,7 @@
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.2.9",
     "babel-eslint": "^10.1.0",
+    "codecov": "^3.8.2",
     "coveralls": "^3.1.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^18.2.1",
