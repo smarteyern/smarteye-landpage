@@ -105,7 +105,16 @@ const Home = () => (
             <Button color="primary">SAIBA MAIS</Button>
           </Container>
         </Container>
-        <Container>Video</Container>
+        <Container>
+          <video
+            src={videoProject}
+            width="100%"
+            type="video/mp4"
+            autoPlay
+            loop
+            muted
+          />
+        </Container>
       </GridRoot>
     </Section>
 
