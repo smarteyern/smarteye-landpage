@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.com/smarteyern/smarteye-landpage.svg?branch=prod)](https://travis-ci.com/smarteyern/smarteye-landpage)
-
-[![Coverage Status](https://coveralls.io/repos/github/smarteyern/smarteye-landpage/badge.svg?branch=prod)](https://coveralls.io/github/smarteyern/smarteye-landpage?branch=prod)
+[![Build Status](https://travis-ci.com/smarteyern/smarteye-landpage.svg?branch=prod)](https://travis-ci.com/smarteyern/smarteye-landpage) [![Coverage Status](https://coveralls.io/repos/github/smarteyern/smarteye-landpage/badge.svg?branch=prod)](https://coveralls.io/github/smarteyern/smarteye-landpage?branch=prod)
 
 # Smarteye Landpage Project
 
