@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/smarteyern/smarteye-landpage.svg?branch=prod)](https://travis-ci.com/smarteyern/smarteye-landpage)
 # Smarteye Landpage Project
 
 ## Create file .env project
