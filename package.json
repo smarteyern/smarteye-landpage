@@ -35,19 +35,12 @@
     "test:watch": "npm run test -- --watch",
     "test:staged": "npm run test --findRelatedTests",
     "test:ci": "npm test -- --coverage",
-    "test:coverage": "npm run test -- --coverage --watchAll=false",
+    "test:coveralls": "npm run test:ci && < coverage/lcov.info",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "check": "npm-check -u -s",
     "chromatic": "chromatic --project-token 041a9ef14db4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm test",
-      "...": "..."
-    }
   },
   "lint-staged": {
     "**/*.(js|jsx)": [
