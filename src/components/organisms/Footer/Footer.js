@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   FaPhone,
   FaBuilding,
@@ -6,12 +6,12 @@ import {
   FaFacebookF,
   FaLinkedin,
   FaTwitter,
-} from "react-icons/fa";
+} from 'react-icons/fa';
 
-import { Root, IconContainer, FooterLink } from "./style";
-import Container from "components/atoms/ContainerRoot/ContainerRoot";
-import { GridRoot } from "components/atoms/Grid/style";
-import Heading from "components/atoms/Heading/Heading";
+import { Root, IconContainer, FooterLink } from './style';
+import Container from 'components/atoms/ContainerRoot/ContainerRoot';
+import { GridRoot } from 'components/atoms/Grid/style';
+import Heading from 'components/atoms/Heading/Heading';
 
 const Footer = () => (
   <>
@@ -23,10 +23,11 @@ const Footer = () => (
               <h6>Projeto SmartEye</h6>
             </Heading>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-              sapiente aperiam unde, ipsum debitis tempora nesciunt odio, velit
-              culpa reiciendis sed corporis voluptatibus odit tempore asperiores
-              nostrum possimus a optio.
+              O SmartEye é uma solução integrada de hardware e software para a
+              identificação de aglomerações e gerenciamento de recursos médicos
+              Usando vários tipos de sensores em sistemas embarcados que
+              alimentam nossa IA e as Dashboards visíveis para os gestores de
+              saúde
             </p>
           </div>
           <div>
@@ -37,19 +38,19 @@ const Footer = () => (
               <IconContainer>
                 <FaPhone />
               </IconContainer>
-              (84) 0800-4041-2594{" "}
+              (84) 0800-4041-2594{' '}
             </p>
             <p>
               <IconContainer>
                 <FaEnvelope />
               </IconContainer>
-              E-mail: johndue@smarteyern.com.br
+              E-mail: services@smateye.tec.br
             </p>
             <p>
               <IconContainer>
                 <FaBuilding />
               </IconContainer>
-              Lorem ipsum dolor sit amet consectetur.
+              http://github.com/smarteyern
             </p>
           </div>
           <div>
@@ -60,7 +61,7 @@ const Footer = () => (
               <IconContainer>
                 <FaFacebookF />
               </IconContainer>
-              <FooterLink target="_black" href="http://facebook.com/">
+              <FooterLink target="_black" href="http://facebook.com/smarteyern">
                 Facebook
               </FooterLink>
             </p>
@@ -68,7 +69,7 @@ const Footer = () => (
               <IconContainer>
                 <FaLinkedin />
               </IconContainer>
-              <FooterLink target="_black" href="http://linkedin.com/">
+              <FooterLink target="_black" href="http://linkedin.com/smarteyern">
                 Linkedin
               </FooterLink>
             </p>
@@ -76,7 +77,7 @@ const Footer = () => (
               <IconContainer>
                 <FaTwitter />
               </IconContainer>
-              <FooterLink target="_black" href="http://twitter.com/">
+              <FooterLink target="_black" href="http://twitter.com/smarteyern">
                 Twitter
               </FooterLink>
             </p>
