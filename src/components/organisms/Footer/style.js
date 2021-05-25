@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { allTheme as theme } from "styles/ThemeProvider";
+import styled from 'styled-components';
+import { allTheme as theme } from 'styles/ThemeProvider';
 
 export const Root = styled.footer`
   background-color: ${theme.light.colors.background.darkBlue};
@@ -13,21 +13,24 @@ export const Root = styled.footer`
   }
 
   p {
+    text-align: justify;
+    text-justify: inter-word;
     color: ${theme.light.colors.text.secundary};
     margin-top: 0;
+    padding-right: 20px;
   }
 `;
 
 export const IconContainer = styled.span`
   margin-right: 16px;
-  color: ${(props) => props.theme.colors.primary.light};
+  color: ${props => props.theme.colors.primary.light};
 `;
 
 export const FooterLink = styled.a`
-  color: ${(props) => props.theme.colors.primary.light};
+  color: ${props => props.theme.colors.primary.light};
   text-decoration: none;
 
   &:hover {
-    color: ${(props) => props.theme.colors.primary.main};
+    color: ${props => props.theme.colors.primary.main};
   }
 `;
