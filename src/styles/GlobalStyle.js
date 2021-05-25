@@ -1,9 +1,9 @@
-import react from "react";
-import { createGlobalStyle } from "styled-components";
-import { Helmet } from "react-helmet";
+import react from 'react';
+import { createGlobalStyle } from 'styled-components';
+import { Helmet } from 'react-helmet';
 
-import { BreadkpointsSize, breakAt } from "./Breadkpoints";
-import { allTheme } from "./ThemeProvider";
+import { BreadkpointsSize, breakAt } from './Breadkpoints';
+import { allTheme } from './ThemeProvider';
 
 const GlobalStyle = createGlobalStyle`
   
