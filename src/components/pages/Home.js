@@ -61,7 +61,8 @@ const Home = () => (
     <Hero image={headerCovidImage}>
       <Heading>
         <h1>
-          Smarteye Controle de Aglomerações <strong>Inteligente </strong> <br />
+          Smarteye
+          <br />
         </h1>
       </Heading>
       <ul>
